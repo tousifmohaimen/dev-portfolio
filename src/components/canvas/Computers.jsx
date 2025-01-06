@@ -1,4 +1,4 @@
-import React, {Suspense} from "react";
+import React, {Suspense, useState, useEffect} from "react";
 import {Canvas} from "@react-three/fiber";
 import {OrbitControls, Preload, useGLTF} from "@react-three/drei";
 import CanvasLoader from "../Loader";
@@ -47,10 +47,10 @@ const ComputersCanvas = () => {
         return() => {
             mediaQuery.removeEventListener("change", handleMediaQueryChange);
         };
-    }, [third]);
+    }, []);
 
     return (
-        <> < Canvas frameloop = "demand" shadows = "shadow" camera = {{
+        <> < Canvas frameloop = "demand" shadows = {true} camera = {{
             position: [20, 3, 5],
             fov: 25,
           }}
