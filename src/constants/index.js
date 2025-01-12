@@ -13,7 +13,6 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
   docker,
   meta,
   starbucks,
@@ -22,7 +21,12 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs,
+  github,
+  python,
+  githubs,
+  fiverr,
+  doc,
+  upwork,
 } from "../assets";
 
 export const navLinks = [
@@ -97,16 +101,16 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Python",
+    icon: python,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "github",
+    icon: githubs,
   },
   {
     name: "docker",
@@ -116,55 +120,42 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Web Developer",
+    company_name: "Fiverr",
+    icon: fiverr,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "September 2022 -  March 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Converting Figma and PSD designs into pixel-perfect, responsive HTML/CSS websites with clean and maintainable code.",
+      "Optimizing websites for performance, cross-browser compatibility, and mobile responsiveness to ensure a seamless user experience",
+      "Collaborating with designers and clients to understand design requirements and deliver high-quality, accurate conversions",
+      "Integrating animations, interactive elements, and modern frameworks (e.g., Bootstrap, Tailwind CSS) to enhance website functionality and aesthetics.",
     ],
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    company_name: "UpWork",
+    icon: upwork,
+    iconBg: "#E6DEDD",
+    date: "March 2023 - December 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Converting Figma and PSD designs into pixel-perfect, responsive HTML/CSS websites with clean and maintainable code.",
+      "Optimizing websites for performance, cross-browser compatibility, and mobile responsiveness to ensure a seamless user experience",
+      "Collaborating with designers and clients to understand design requirements and deliver high-quality, accurate conversions",
+      "Integrating animations, interactive elements, and modern frameworks (e.g., Bootstrap, Tailwind CSS) to enhance website functionality and aesthetics.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Software Developer Intern",
+    company_name: "Health Digital Technologies Sdn Bhd (DoctorOnCall)",
+    icon: doc,
+    iconBg: "#383E56",
+    date: "March 2024 - November 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed and developed dynamic user interfaces using React.js, implementing responsive and interactive features to enhance the user experience.",
+      "Built and maintained backend APIs with Node.js and Express, integrating MongoDB for data storage and ensuring seamless communication between frontend and backend systems.",
+      "Collaborated with cross-functional teams to deliver end-to-end solutions, including handling API integrations and optimizing website performance.",
+      "Developed and customized WordPress plugins, including an SSO authentication plugin, to ensure seamless functionality across the company’s web platforms.",
     ],
   },
 ];
@@ -172,15 +163,15 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "A highly dependable developer, Tousif collaborates effectively and always meets project deadlines.",
+    name: "Haris Mateen",
+    designation: "CIO",
+    company: "DoctorOnCall",
+    image: "https://randomuser.me/api/portraits/men/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "With outstanding attention to detail, Tousif transformed our designs into pixel-perfect, responsive websites",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -188,11 +179,11 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Tousif's technical expertise and problem-solving abilities were instrumental in the success of our FWD projects.",
+    name: "Nour Mtawea",
+    designation: "Team Lead",
+    company: "DoctorOnCall",
+    image: "https://randomuser.me/api/portraits/men/6.jpg",
   },
 ];
 
@@ -221,7 +212,7 @@ const projects = [
   {
     name: "Job IT",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to search for job openings, and locate available jobs based on their current location.",
     tags: [
       {
         name: "react",
