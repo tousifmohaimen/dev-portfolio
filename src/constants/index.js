@@ -50,7 +50,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
@@ -58,7 +58,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Prompt Engineer",
     icon: creator,
   },
 ];
@@ -189,67 +189,80 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "My Shop",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "An intuitive e-commerce platform that enables users to browse, search, and purchase products seamlessly, offering secure payment options, a user-friendly interface, and efficient order management for a hassle-free shopping experience.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "MongoDb",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Tailwind",
         color: "pink-text-gradient",
+      },
+      {
+        name: "NodeJS",
+        color: "blue-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/tousifmohaimen/Myshop",
   },
   {
     name: "Job IT",
     description:
-      "Web application that enables users to search for job openings, and locate available jobs based on their current location.",
+      "A comprehensive web application designed to streamline the process of job posting and job searching, providing an intuitive platform for employers to post opportunities and for job seekers to find and apply for their ideal roles.",
     tags: [
       {
-        name: "react",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "php",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "MySQL",
         color: "pink-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "blue-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/tousifmohaimen/Job-Portal/",
   },
   {
-    name: "Trip Guide",
+    name: "Facial Recognition Based Class Attendance System",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The platform leverages advanced computer vision technology to instantly identify and record student presence in classrooms, making attendance monitoring effortless and accurate.",
     tags: [
       {
-        name: "nextjs",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Streamlit",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Redis",
         color: "pink-text-gradient",
+      },
+      {
+        name: "OpenCV",
+        color: "blue-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link:
+      "https://github.com/tousifmohaimen/Automated-Class-Attendance-Web-App",
   },
 ];
 
